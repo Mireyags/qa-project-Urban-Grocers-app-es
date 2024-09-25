@@ -53,9 +53,6 @@ Navegar al directorio del proyecto: cd urban-grocers-api-testing
 Instalar las dependencias: pip install -r requirements.txt
 Ejecutar las pruebas: pytest
 
-
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, por favor sigue las pautas de contribución.
-
-
