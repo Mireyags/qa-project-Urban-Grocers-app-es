@@ -36,15 +36,15 @@ Abre la documentación para estudiar la API de la aplicación de Urban Grocers: 
 ## Lista de Comprobación de Pruebas automatizadas
 
 #	Descripción	
-1	El número permitido de caracteres (1): kit_body = { "name": "a" }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
-2	El número permitido de caracteres (511): kit_body = { "name": "..." }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
-3	El número de caracteres es menor que la cantidad permitida (0): kit_body = { "name": "" }	Código de respuesta: 400
-4	El número de caracteres es mayor que la cantidad permitida (512): kit_body = { "name": "..." }	Código de respuesta: 400
-5	Se permiten caracteres especiales: kit_body = { "name": "№%@," }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
-6	Se permiten espacios: kit_body = { "name": " A Aaa " }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
-7	Se permiten números: kit_body = { "name": "123" }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
-8	El parámetro no se pasa en la solicitud: kit_body = { }	Código de respuesta: 400
-9	Se ha pasado un tipo de parámetro diferente (número): kit_body = { "name": 123 }	Código de respuesta: 400
+- 1	El número permitido de caracteres (1): kit_body = { "name": "a" }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
+- 2	El número permitido de caracteres (511): kit_body = { "name": "..." }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
+- 3	El número de caracteres es menor que la cantidad permitida (0): kit_body = { "name": "" }	Código de respuesta: 400
+- 4	El número de caracteres es mayor que la cantidad permitida (512): kit_body = { "name": "..." }	Código de respuesta: 400
+- 5	Se permiten caracteres especiales: kit_body = { "name": "№%@," }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
+- 6	Se permiten espacios: kit_body = { "name": " A Aaa " }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
+- 7	Se permiten números: kit_body = { "name": "123" }	Código de respuesta: 201, El campo "name" coincide con el cuerpo de la solicitud.
+- 8	El parámetro no se pasa en la solicitud: kit_body = { }	Código de respuesta: 400
+- 9	Se ha pasado un tipo de parámetro diferente (número): kit_body = { "name": 123 }	Código de respuesta: 400
 
 ## ¿Cómo Ejecutar las Pruebas?
 •  Clonar el repositorio en Pycharm: 
